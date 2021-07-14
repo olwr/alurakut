@@ -227,7 +227,7 @@ export function AlurakutProfileSidebarMenuDefault() {
 AlurakutProfileSidebarMenuDefault.Wrapper = styled.div`
   a {
     font-size: 12px;
-    color: #2E7BB4;
+    color: #50a5ce;
     margin-bottom: 16px;
     display: flex;
     align-items: center;
@@ -236,7 +236,7 @@ AlurakutProfileSidebarMenuDefault.Wrapper = styled.div`
     img {
       width: 16px;
       height: 16px;
-      margin-right: 5px; 
+      margin-right: 5px;
     }
   }
 `;
@@ -269,7 +269,7 @@ export function OrkutNostalgicIconSet(props) {
         { name: 'Legal', slug: 'legal', icon: 'cool' },
         { name: 'Sexy', slug: 'sexy', icon: 'heart' },
       ].map(({ name, slug, icon }) => {
-        const total = props[slug] ? props[slug] : 3;
+        const total = props[slug] ? props[slug] : 2;
         return (
           <li key={`orkut__icon_set__${slug}`}>
             <span className="OrkutNostalgicIconSet__title">
@@ -295,18 +295,18 @@ OrkutNostalgicIconSet.List = styled.ul`
   flex-wrap: wrap;
   li {
     font-size: 12px;
-    color: #5A5A5A;
+    color: #FFFFFF;
     display: grid;
     grid-template-areas:
       "title title"
-      "number number"; 
-    
+      "number number";
+
     &:not(:last-child) {
       margin-right: 5px;
     }
     .OrkutNostalgicIconSet__title {
       display: block;
-      font-style: italic; 
+      font-style: italic;
     }
     .OrkutNostalgicIconSet__number {
       min-width: 15px;
@@ -348,13 +348,13 @@ const AlurakutLoginScreen = css`
     --gap: 12px;
     --gutter: 16px;
     grid-gap: var(--gap);
-    grid-template-areas: 
+    grid-template-areas:
       "logoArea"
       "formArea"
       "footerArea";
     @media(min-width: 860px) {
       grid-template-columns: 2fr 1fr;
-      grid-template-areas: 
+      grid-template-areas:
               "logoArea formArea"
               "logoArea formArea"
               "footerArea footerArea";
@@ -468,14 +468,14 @@ export const AlurakutStyles = css`
     width: 8px;
   }
   *::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
   }
   *::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #888;
     border-radius: 10px;
   }
   *::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
   }
   a,
   button {
