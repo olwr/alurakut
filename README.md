@@ -10,8 +10,6 @@ Preview live no [StackBlitz](http://stackblitz.com/):
 
 ## Vercel
 
- [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
 [![Deploy with Vercel](https://vercel.com/button)](https://alurakut-nine-phi.vercel.app)
 
 ### Notas
